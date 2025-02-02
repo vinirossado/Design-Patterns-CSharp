@@ -1,8 +1,28 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Visitor", "Visitor", "{4413DBB0-A391-45D5-8A59-E19815B15092}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zoo", "Zoo\Zoo.csproj", "{3C97DDB8-5D49-4FAD-B902-49E9F9259700}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Document", "Document\Document.csproj", "{DF5D63F5-02CD-4320-8D8E-BAA3CEC9AEE9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3C97DDB8-5D49-4FAD-B902-49E9F9259700} = {4413DBB0-A391-45D5-8A59-E19815B15092}
+		{DF5D63F5-02CD-4320-8D8E-BAA3CEC9AEE9} = {4413DBB0-A391-45D5-8A59-E19815B15092}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3C97DDB8-5D49-4FAD-B902-49E9F9259700}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C97DDB8-5D49-4FAD-B902-49E9F9259700}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C97DDB8-5D49-4FAD-B902-49E9F9259700}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C97DDB8-5D49-4FAD-B902-49E9F9259700}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF5D63F5-02CD-4320-8D8E-BAA3CEC9AEE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF5D63F5-02CD-4320-8D8E-BAA3CEC9AEE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF5D63F5-02CD-4320-8D8E-BAA3CEC9AEE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF5D63F5-02CD-4320-8D8E-BAA3CEC9AEE9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
